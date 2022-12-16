@@ -1,11 +1,12 @@
 package ru.job4j.oop;
 
 public class Calculator {
-    private static final int x = 5;
+    private static int x = 5;
 
     public static int sum(int y) {
         return x + y;
     }
+
     public static int minus(int z) {
         return z - x;
     }
@@ -17,6 +18,7 @@ public class Calculator {
     public int divide(int q) {
         return q / x;
     }
+
     public int sumAllOperation(int u) {
         return sum(u) + multiply(u) + minus(u) + divide(u);
     }
