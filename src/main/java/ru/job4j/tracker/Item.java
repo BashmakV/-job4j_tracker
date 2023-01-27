@@ -4,12 +4,10 @@ public class Item {
     private int id;
     private String name;
 
-    public Item() {
-
-    }
+    public Item() {}
 
     public Item(String name) {
-     this.name = name;
+        this.name = name;
     }
 
     public Item(int id, String name) {
