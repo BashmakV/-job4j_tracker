@@ -8,6 +8,8 @@ public class College {
         student.setFullName("Vasiliy Ivanovich Pupkin");
         student.setGroup(7);
         student.setReceiptDate(new Date(1999, 5, 23, 10, 00));
-        System.out.println(student.getFullName() + "," + " учится в группе № " + student.getGroup() + "," + " дата поступления " + student.getReceiptDate());
+        System.out.println(student.getFullName() + ","
+                + " учится в группе № " + student.getGroup() + ","
+                + " дата поступления " + student.getReceiptDate());
     }
 }
