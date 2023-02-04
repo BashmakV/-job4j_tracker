@@ -26,7 +26,7 @@ public class Library {
         System.out.println();
         for (int i = 0; i < notes.length - 1; i++) {
             Book ns = notes[i];
-            if (notes[i] == programming) {
+            if ("Clean Code".equals(notes[i].getName())) {
                 System.out.println(ns.getName() + " - " + ns.getPageCount());
             }
         }
