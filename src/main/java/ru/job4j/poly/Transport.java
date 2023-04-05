@@ -3,7 +3,7 @@ package ru.job4j.poly;
 public interface Transport {
     void drive();
 
-    int passengers();
+    void passengers(int quantity);
 
     default int getRefuel(int[] liters) {
         int price = 0;
