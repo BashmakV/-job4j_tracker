@@ -76,7 +76,7 @@ public class StartUI {
                 StartUI.createItem(input, tracker);
             } else if (select == 1) {
                 StartUI.showAllItems(tracker);
-            }else if (select == 2) {
+            } else if (select == 2) {
                 StartUI.editItem(input, tracker);
             } else if (select == 3) {
                 StartUI.deleteItem(input, tracker);
@@ -89,7 +89,6 @@ public class StartUI {
             }
         }
     }
-
 
     private void showMenu() {
         String[] menu = {
