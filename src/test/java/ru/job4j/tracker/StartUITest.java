@@ -43,4 +43,3 @@ class StartUITest {
         assertThat(tracker.findById(item.getId())).isEqualTo(null);
     }
 }
-
