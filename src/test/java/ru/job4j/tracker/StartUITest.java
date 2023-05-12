@@ -1,7 +1,9 @@
 package ru.job4j.tracker;
 
-//import org.junit.jupiter.api.Test;
-//import static org.assertj.core.api.Assertions.assertThat;
+/**
+ * @author BashmakV
+ * @date 12.05.2023
+ */
 
 class StartUITest {
 
